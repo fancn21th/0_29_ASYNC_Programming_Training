@@ -1,0 +1,25 @@
+{
+  "name": "0_29_ASYNC_Programming_Training",
+  "version": "1.0.0",
+  "description": "How to handle async programming in JS",
+  "main": "fifth_generator.js",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/0_29_ASYNC_Programming_Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fancn21th/0_29_ASYNC_Programming_Training/issues"
+  },
+  "homepage": "https://github.com/fancn21th/0_29_ASYNC_Programming_Training#readme"
+}
