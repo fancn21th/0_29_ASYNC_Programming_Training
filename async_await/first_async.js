@@ -7,7 +7,7 @@ const fetch = require('node-fetch')
 async function fooFetcher() {
   const response = await fetch(url)
   const foo = await response.json()
-  console.log(foo.data.foo)
+  return foo.data.foo
 }
 
-fooFetcher()
+fooFetcher().then(foo => console.log(foo))
