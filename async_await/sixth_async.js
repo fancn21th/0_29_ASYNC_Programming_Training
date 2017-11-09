@@ -2,7 +2,7 @@ const url = 'http://localhost:8080'
 const url2 = 'http://localhost:8080/text'
 const fetch = require('node-fetch')
 
-async function fetchRandomNumberAndRadomText() {
+async function fetchRandomNumberAndRandomText() {
   const numberPromise = fetch(url)
   const textPromise = fetch(url2)
   const number = await numberPromise
@@ -13,4 +13,4 @@ async function fetchRandomNumberAndRadomText() {
   console.log(textVal.data.foo)
 }
 
-fetchRandomNumberAndRadomText()
+fetchRandomNumberAndRandomText()
