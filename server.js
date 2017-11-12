@@ -6,7 +6,8 @@ const numberTextList = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 's
 function process_request(req, res) {
   req.parsed_url = url.parse(req.url, true);
   var core_url = req.parsed_url.pathname;
-  console.log("INCOMING REQUEST: " + req.method + " " + core_url);
+  var time = new Date(Date.now()).toUTCString()
+  console.log(`[${time}] INCOMING REQUEST : ${req.method} ${core_url}`);
 
   if(core_url == '/'){
     setTimeout(function () {
