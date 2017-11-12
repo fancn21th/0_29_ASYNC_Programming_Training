@@ -1,5 +1,5 @@
 // error not caught as expected
-// since context is gone within callback
+// since context is already lost when callback function is running
 try {
   setTimeout(() => {
     throw new Error("OH NOES!!!!");
