@@ -4,6 +4,7 @@
   "description": "How to handle async programming in JS",
   "main": "fifth_generator.js",
   "dependencies": {
+    "async": "^2.6.0",
     "co": "^4.6.0",
     "node-fetch": "^1.7.3"
   },
