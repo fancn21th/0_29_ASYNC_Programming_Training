@@ -7,6 +7,7 @@ async function fetchRandomContent(endpoint) {
 }
 
 async function fetchRandomNumberAndRandomText() {
+  // use es2015 deconstructing syntax
   const [number, numberText] = await Promise.all([
     fetchRandomContent(''),
     fetchRandomContent('/text'),
